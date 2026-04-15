@@ -1,0 +1,125 @@
+@media screen and (min-width: 640px) {
+  .home .row .header-content p {
+    font-size: 16px;
+  }
+  .home .row .header-content h1 {
+    font-size: 48px;
+  }
+
+  .home .label {
+    bottom: -25px;
+    left: -30px;
+    padding: 30px;
+  }
+
+  .home .label i {
+    font-size: 20px;
+  }
+  .home .label p {
+    font-size: 12px;
+  }
+  .home .label h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer .slide {
+    width: 50%;
+  }
+
+  .home .buttons button {
+    padding: 18px 35px;
+  }
+
+  .home .image-wrapper img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+  }
+
+  .main-title h2 {
+    font-size: 36px;
+  }
+  .main-title p.next {
+    font-size: 36px;
+  }
+
+  .contact .row .icon {
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (min-width: 1024px) {
+  .home .row .header-content h1 {
+    font-size: 60px;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    gap: 30px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Location Location Location Send-Message Send-Message Send-Message"
+      "Number Number Number Send-Message Send-Message Send-Message"
+      "Address Address Address Send-Message Send-Message Send-Message"
+      "Community Community Community Send-Message Send-Message Send-Message";
+  }
+
+  .footer .slide {
+    width: 25%;
+  }
+
+  .home .image-wrapper img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin-top: 40px;
+  }
+
+  .home .label {
+    bottom: -25px;
+    left: -30px;
+    padding: 25px;
+  }
+
+  .home .image-wrapper {
+    max-width: 600px;
+    padding-inline: 10px;
+  }
+
+  .main-title h2 {
+    font-size: 48px;
+  }
+  .main-title p.next {
+    font-size: 48px;
+  }
+  .we-do .row::after {
+    width: 50%;
+  }
+
+  .banner-bg {
+    background-color: var(--bg-nav-dark);
+    background-image: radial-gradient(
+      ellipse 35% 50% at center,
+      #cbfe1c 0%,
+      #cbfe1c 0%,
+      #0b0e13 100%
+    );
+  }
+
+  .we-do .container-fluid img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+}
+@media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1536px) {
+}
+
+@media (min-width: 992px) {
+}
